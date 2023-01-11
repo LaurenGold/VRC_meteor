@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.011825809, g: 0.011470261, b: 0.011825809, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6471,6 +6471,12 @@ MonoBehaviour:
   publicVariablesUnityEngineObjects:
   - {fileID: 346203481}
   publicVariablesSerializationDataFormat: 0
+--- !u!1 &247743797 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1350032267753345934, guid: 1dacfe29d81b51c46a85f97842455123,
+    type: 3}
+  m_PrefabInstance: {fileID: 994805616}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &313367846
 GameObject:
   m_ObjectHideFlags: 0
@@ -7924,6 +7930,12 @@ Transform:
   m_Father: {fileID: 2123258954}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &511348615 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1350032267753345934, guid: 1dacfe29d81b51c46a85f97842455123,
+    type: 3}
+  m_PrefabInstance: {fileID: 1889988976}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &521589458
 GameObject:
   m_ObjectHideFlags: 0
@@ -25909,6 +25921,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1146305876}
   m_CullTransparentMesh: 0
+--- !u!1 &1155855045 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1350032267753345934, guid: 1dacfe29d81b51c46a85f97842455123,
+    type: 3}
+  m_PrefabInstance: {fileID: 1417237988}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1165132164
 GameObject:
   m_ObjectHideFlags: 0
@@ -31925,7 +31943,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097360295}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.27, y: 1.802, z: -6.707}
+  m_LocalPosition: {x: 8.27, y: 1.2, z: -6.707}
   m_LocalScale: {x: 1, y: 1, z: 2}
   m_Children:
   - {fileID: 970910942}
@@ -35262,6 +35280,7 @@ GameObject:
   - component: {fileID: 7111575897785925491}
   - component: {fileID: 3591906996255472209}
   - component: {fileID: 3231720197660963110}
+  - component: {fileID: 3480278762663670690}
   m_Layer: 0
   m_Name: VRCWorld
   m_TagString: Untagged
@@ -35269,6 +35288,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3480278762663670690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3480278762663670689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentType: 1
 --- !u!1 &3515448537078641497
 GameObject:
   m_ObjectHideFlags: 0
@@ -36177,7 +36209,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5380914605341839620}
   m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: 7.33, y: 1.79, z: -4.91}
+  m_LocalPosition: {x: 7.33, y: 1.19, z: -4.91}
   m_LocalScale: {x: 3.6627066, y: 3.6627066, z: 3.6627066}
   m_Children:
   - {fileID: 851011279}
@@ -36985,8 +37017,44 @@ MonoBehaviour:
   useAssignedLayers: 0
   DynamicPrefabs: []
   DynamicMaterials:
+  - {fileID: 2100000, guid: 4de3204f745b1c3438dda73e0e8f0c20, type: 2}
+  - {fileID: 2100000, guid: b79e4d4451b07714b978535f06b9b11b, type: 2}
+  - {fileID: 2100000, guid: ea806995da8404f4b96e6726f11d8a17, type: 2}
   - {fileID: 2100000, guid: 1c987494452b85f4ab4cac3322415907, type: 2}
+  - {fileID: 2100000, guid: 219b8b6950b888f40b189f45cb13f02a, type: 2}
+  - {fileID: 2100000, guid: 2d24fc897d87d8d4a80a06e5684c2eb7, type: 2}
+  - {fileID: 2100000, guid: 201f281aab59b0640a4ddddff2eca6b7, type: 2}
+  - {fileID: 2100000, guid: d5cc4092e0588e7429a3317fee49c876, type: 2}
+  - {fileID: 2100000, guid: b24e8bf6f46cd704784e1c3c6425881a, type: 2}
+  - {fileID: 2100000, guid: b7040b08bb4db4b47a186b7c4e605e57, type: 2}
+  - {fileID: 2100000, guid: e5a2c377b24c2bc4a865b4ee66745718, type: 2}
+  - {fileID: 2100000, guid: 32f8a599444ff4d469114073e0b7e8ce, type: 2}
+  - {fileID: 2100000, guid: df1394e11e6de2b4190fe2d264cb77ea, type: 2}
+  - {fileID: 2100000, guid: ff4941dfe4324e6488a109f41b3bef2d, type: 2}
+  - {fileID: 2100000, guid: f503274d4dab2484e8bf37b2383c8154, type: 2}
+  - {fileID: 2100000, guid: c424ddfff236ae04bb2abc1c933821d1, type: 2}
+  - {fileID: 2100000, guid: 58c21269161864943b4fea7a32ad8261, type: 2}
+  - {fileID: 2100000, guid: 18f729c40b5d80240be0c7b991adc467, type: 2}
+  - {fileID: 2100000, guid: 3d1ad48eb988fba4fa01d793e7c48a12, type: 2}
+  - {fileID: 2100000, guid: bebe435dbecc164468c51ef49238acca, type: 2}
+  - {fileID: 2100000, guid: d5baaaa13f19b5c46959c2341e4e95e5, type: 2}
+  - {fileID: 2100000, guid: 6ce0ad7ad0896064890bf95260413f6c, type: 2}
+  - {fileID: 2100000, guid: 008b48c168d07c8449b55d0ad65c3824, type: 2}
+  - {fileID: 2100000, guid: f8c17ff9f8feeb741aaeddeed04b5fe6, type: 2}
+  - {fileID: 2100000, guid: 6dfd78c1d93ad604f9d0f62ddd69d3c6, type: 2}
+  - {fileID: 2100000, guid: 66b83f817b941ce4a981d942ffd70251, type: 2}
+  - {fileID: 2100000, guid: f6cc908e9f0d6a648adb2835cd3d6541, type: 2}
+  - {fileID: 2100000, guid: 13e6dea8ba650134da22910b8a9db217, type: 2}
+  - {fileID: 2100000, guid: aa836f3edcc065f499123139a8482262, type: 2}
+  - {fileID: 2100000, guid: 5799935e9d8e7c047a97465247c5f73f, type: 2}
   - {fileID: 2100000, guid: c815f7613a04b724089c206857e57c6a, type: 2}
+  - {fileID: 2100000, guid: 0d680d986d494944c95ccbac773fd978, type: 2}
+  - {fileID: 2100000, guid: 096584aabd1e9a545a00fd65081d56de, type: 2}
+  - {fileID: 2100000, guid: 8e724108404e457439eafe60ebeb4acc, type: 2}
+  - {fileID: 2100000, guid: efaa9a8a6a323b84d9029a194dd5477f, type: 2}
+  - {fileID: 2100000, guid: 36ad89314c505fd42a69c0399d23681f, type: 2}
+  - {fileID: 2100000, guid: c706afb4295d44a48a7a860f31d36150, type: 2}
+  - {fileID: 2100000, guid: 88e9119b6e679a848b6cc4b812721fbb, type: 2}
   - {fileID: 2100000, guid: fd20e45036ef323459e8286e9c23c02c, type: 2}
   LightMapsNear: []
   LightMapsFar: []
@@ -37157,6 +37225,14 @@ MonoBehaviour:
     ID: 66
   - gameObject: {fileID: 3480278762663670689}
     ID: 67
+  - gameObject: {fileID: 788475499}
+    ID: 68
+  - gameObject: {fileID: 247743797}
+    ID: 69
+  - gameObject: {fileID: 511348615}
+    ID: 70
+  - gameObject: {fileID: 1155855045}
+    ID: 71
   portraitCameraPositionOffset: {x: 0, y: 0, z: 0}
   portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
 --- !u!1 &7167566981078705490
